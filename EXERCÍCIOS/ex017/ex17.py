@@ -1,0 +1,5 @@
+ca = int(input('digite o valor do cateto adjacente: '))
+co = int(input('Digite o valor do cateto oposto: '))
+h = (ca ** 2 + co ** 2) ** (1/2)
+print('*' * 36)
+print('A hipotenusa vale: {}'.format(h))
